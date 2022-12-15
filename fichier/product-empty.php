@@ -242,4 +242,8 @@
         </form>   
     </div>
 </div>
+
 <?php require './footer-admin.php'; ?>
+<script>
+    $("input[type=file]").change(function (e){$(this).next('.custom-file-label').text(e.target.files[0].name);})
+</script>
