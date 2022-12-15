@@ -16,7 +16,7 @@
                         </div>     
                     </div>
                     <div class="tab-content" style="padding-top:20px">
-                        <div class="table-responsive tab-pane fade show active" id="v-pills-products" role="tabpanel" aria-labelledby="v-pills-products-tab">
+                        <div class="table-responsive" id="v-pills-products" role="tabpanel">
                             <table  class="table table-bordered table-striped" style="width:100%">
                                 <thead class="thead-dark">
                                     <tr>
