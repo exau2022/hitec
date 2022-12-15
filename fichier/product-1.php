@@ -3,7 +3,7 @@
     <div class="col-9" style="padding-top:20px;padding-right:40px">
        
         <div class="d-flex justify-content-between pb-3">
-            <div> 
+            <div>   
                 <button class="btn btn-white text-dark border-dark" type="submit">
                     <i class="bi bi-x"></i>
                     <a href="./products.php" class="text-secondary" style="text-decoration:none">Annuler la modification</a>

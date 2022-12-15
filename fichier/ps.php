@@ -15,8 +15,8 @@
                             </button>
                         </div>     
                     </div>
-                    <div class="tab-content" style="padding-top:20px">
-                        <div class="table-responsive tab-pane fade show active" id="v-pills-products" role="tabpanel" aria-labelledby="v-pills-products-tab">
+                    <div class="tab-content" id="v-pills-tabContent" style="padding-top:20px">
+                        <div class="table-responsive tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                             <table  class="table table-bordered table-striped" style="width:100%">
                                 <thead class="thead-dark">
                                     <tr>
@@ -34,13 +34,13 @@
                                         <td>Ecrans d'ordinateur</td>
                                         <td>AOC 24B1XHS </td>
                                         <td>
-                                            <button class="btn btn-light border-danger text-danger" data-toggle="modal" data-target="#supModal">
+                                            <button class="btn btn-light border-danger text-danger">
                                                 <i class="bi bi-archive-fill"></i>
                                                 Retirer
                                             </button>
                                             <button class="btn btn-light border-dark text-secondary">
                                                 <i class="bi bi-pencil"></i>
-                                                <a href="./product-1.php" class="text-secondary" style="text-decoration:none"> Modifier</a>
+                                                Modifier
                                             </button>
                                             <button class="btn btn-light border-dark text-dark">
                                                 <i class="bi bi-tags"></i>
@@ -54,13 +54,13 @@
                                         <td>Ecrans d'ordinateur</td>
                                         <td>AOC 24B1XHS </td>
                                         <td>
-                                            <button class="btn btn-light border-danger text-danger"  data-toggle="modal" data-target="#supModal">
+                                            <button class="btn btn-light border-danger text-danger">
                                                 <i class="bi bi-archive-fill"></i>
                                                 Retirer
                                             </button>
                                             <button class="btn btn-light border-dark text-secondary">
                                                 <i class="bi bi-pencil"></i>
-                                                <a href="./product-1.php" class="text-secondary" style="text-decoration:none"> Modifier</a>
+                                                Modifier
                                             </button>
                                             <button class="btn btn-light border-dark text-dark">
                                                 <i class="bi bi-tags"></i>
@@ -80,7 +80,7 @@
                                             </button>
                                             <button class="btn btn-light border-dark text-secondary">
                                                 <i class="bi bi-pencil"></i>
-                                                <a href="./product-1.php" class="text-secondary" style="text-decoration:none"> Modifier</a>
+                                                Modifier
                                             </button>
                                             <button class="btn btn-light border-dark text-dark">
                                                 <i class="bi bi-tags"></i>
@@ -97,7 +97,7 @@
                                             <button class="btn btn-light border-success text-success">Mettre en boutique</button>
                                             <button class="btn btn-light border-dark text-secondary">
                                                 <i class="bi bi-pencil"></i>
-                                                <a href="./product-1.php" class="text-secondary" style="text-decoration:none"> Modifier</a>
+                                                Modifier
                                             </button>
                                             <button class="btn btn-light border-dark text-dark">
                                                 <i class="bi bi-tags"></i>
@@ -126,30 +126,6 @@
                                 </li>
                             </ul>
                         </nav>
-                    </div>
-                    
-                    <!-- Modal -->
-                    <div class="modal fade" id="supModal" tabindex="-1" aria-labelledby="supModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title text-danger" id="supModalLabel">
-                                    <i class="bi bi-archive-fill"></i>
-                                    Retrait d'un produit
-                                </h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                               Attention, le produit ne sera plus visible sur le site
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Annuler</button>
-                                <button type="button" class="btn btn-danger">Retirer le produit de la boutiques</button>
-                            </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
